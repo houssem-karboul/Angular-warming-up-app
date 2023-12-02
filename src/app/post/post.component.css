@@ -1,0 +1,27 @@
+.container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.inner-element {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+#parent-header {
+    color: red;
+}
+
+#child-header {
+    color: green;
+}
+
+#imgContainer{
+    float: right;
+}
+
+.text-red {
+    color: red;
+}

@@ -1,0 +1,5 @@
+<p>{{ childData }} </p>
+<button (click)='sendMessage()'> Click</button>
+<input type="text" (keydown)='onKeyDown($event)' id="i33"> 
+<input type="text" (keyup)='onKeyUp(username.value)' #username id="i2"> 
+<input type="text" [(ngModel)]="i3Value" id="i3" (keyup)="onKeyUpI3($event)">
